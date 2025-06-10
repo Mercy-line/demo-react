@@ -18,13 +18,15 @@ const Header = () => {
   Courses
 </Link>
 <Link to="/instructors" className="hover:text-blue-300 transition">
-  instructors
+  Instructors
 </Link>
       </nav>
       <div className="pr-10">
+        <Link to={"/login"}>
         <button className="bg-blue-600 text-black font-serif font-bold px-4 py-2 border border-white rounded-xl hover:bg-blue-800 hover:text-white transition">
           Login
         </button>
+        </Link>
         </div>
     </header>
   );

@@ -1,5 +1,5 @@
 import React from "react";
-import logo from "../assets/courses.webp";
+import logo from "../assets/courses.png";
 import Header from "../components/Header";
 
 const Courses = () => {
@@ -23,12 +23,12 @@ const Courses = () => {
               and effective learning experience.
             </p>
             <button className="bg-blue-600 text-black font-serif font-bold px-4 py-2 border border-white rounded-xl hover:bg-blue-800 hover:text-white transition">
-              GET STARTED
+              SEE ALL COURSES
             </button>
           </div>
         </div>
         <div className="w-full flex justify-end p-6 min-h-screen items-center">
-          <img src={logo} alt="logo" className="rounded-xl w-[80%] h-auto" />
+          <img src={logo} alt="logo" className="rounded-xl w-[100%] h-auto" />
         </div>
       </section>
     </div>
